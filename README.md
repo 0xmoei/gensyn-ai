@@ -362,7 +362,7 @@ cd ..
 Navigate:
 ```
 cd rl-swarm
-```
+
 Edit:
 ```
 nano hivemind_exp/configs/mac/grpo-qwen-2.5-0.5b-deepseek-r1.yaml

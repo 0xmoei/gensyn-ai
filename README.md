@@ -288,6 +288,14 @@ docker compose run --rm --build -Pit swarm-gpu
 ---
 
 ## Backup
+## Quick Method
+### Mobaxterm SSH client
+You can use SSH clients that support file management like **Mobaxterm**
+* To connect to them, simply click on **Start local terminal** in *Mobaxterm*, and execute your ssh command
+* If using Vast GPU provider, the rl-swarm will be located to `/workspace/rl-swarm`
+
+
+## Full Method
 **You need to backup `swarm.pem`, if you want to recover your animal's name, animals are a subscribed to your email**
 ### `VPS`:
 Connect your VPS using `Mobaxterm` client to be able to move files to your local system. Back up these files:**

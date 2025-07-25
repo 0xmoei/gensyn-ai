@@ -356,13 +356,14 @@ put swarm.pem /home/ubuntu/rl-swarm/swarm.pem
 ---
 
 # Node Health
-### Official Dashboards
-https://dashboard.gensyn.ai/
+### Official Dashboard
+Login to the official [Gensyn Dashboard](https://dashboard.gensyn.ai/)
 
 ![image](https://github.com/user-attachments/assets/cd8e8cd3-f057-450a-b1a2-a90ca10aa3a6)
 
 ### Contract
-Query your Node's peer ID for eoa address, rewards, wins, etc.
+Query your Node's peer ID for eoa address, rewards, wins, etc:
+
 https://gensyn-testnet.explorer.alchemy.com/address/0xFaD7C5e93f28257429569B854151A1B8DCD404c2?tab=read_proxy
 
 ---
@@ -401,15 +402,15 @@ gswarm --version
 **2. Get Your Chat ID:**
 * Start a chat with your new bot and send some messages to it
 * Visit `https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates` in your browser
-  * Replace your bot token with `YOUR_BOT_TOKEN` in the url
-  * Keep the word `bot` behind your bot token in the url
+  * Replace `<YOUR_BOT_TOKEN>` with your actual bot token.
+  * Ensure the word `bot` remains in the URL before the token.
 * Find your chat ID in the response
 * Example: If your bot token is `1234567890:ABCdefGHIjklMNOpqrsTUVwxyz`, visit:
 ```
 https://api.telegram.org/bot1234567890:ABCdefGHIjklMNOpqrsTUVwxyz/getUpdates
 ```
 
-* In your Browser, check `Pretty-print` for better code visiblity
+* In your Browser, enable `Pretty-print` for better readability.
 
 **Sample Response:**
 ```
@@ -449,7 +450,6 @@ Run `gswarm` in your terminal now and follow the prompts to enter your bot token
 * You'll find **EOA address**  by logging in the [Gensyn Dashboard](https://dashboard.gensyn.ai/)
 
 
-
 ## Step 4. Linking Discord and Telegram
 To link your Discord and Telegram accounts:
 
@@ -464,8 +464,9 @@ To link your Discord and Telegram accounts:
 
 This will link your Discord and Telegram accounts and you earn **The Swarm** role.
 
-
-Follow the [Gswarm Official Documents](https://gswarm.dev/docs) for more information
+#
+* Use `screen` commands if you want to keep the bot running
+* Follow the [Gswarm Official Documents](https://gswarm.dev/docs) for more information
 
 ---
 

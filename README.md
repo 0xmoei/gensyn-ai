@@ -370,6 +370,7 @@ https://gensyn-testnet.explorer.alchemy.com/address/0xFaD7C5e93f28257429569B8541
 
 # Gswarm Role/Telegram Bot
 Instructions to setup a swarm node monitoring telegram bot and earn **The Swarm** Discord role
+* Gswarm Official Docs: [Link ](https://gswarm.dev/docs)
 
 ## Step 1. Install Gswarm
 ```bash
@@ -464,9 +465,8 @@ To link your Discord and Telegram accounts:
 
 This will link your Discord and Telegram accounts and you earn **The Swarm** role.
 
-#
-* Use `screen` commands if you want to keep the bot running
-* Follow the [Gswarm Official Documents](https://gswarm.dev/docs) for more information
+
+* **Note** Use `screen` commands if you want to keep the bot running
 
 ---
 

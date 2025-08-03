@@ -111,25 +111,26 @@ While i recommend to use GPU, I am currently running `CPU only` of this node's v
 #
 
 ## 1) Install Dependencies
+* Note: If installing on **Quickpod**, remove `sudo` from commands
 **1. Update System Packages**
 ```bash
-apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 **2. Install General Utilities and Tools**
 ```bash
-apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
+sudo apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
 ```
 
 **3. Install Python**
 ```bash
-apt install python3 python3-pip python3-venv python3-dev -y
+sudo apt install python3 python3-pip python3-venv python3-dev -y
 ```
 
 **4. Install Node**
 ```
-apt update
-curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
-apt install -y nodejs
+sudo apt update
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo bash -
+sudo apt install -y nodejs
 node -v
 npm install -g yarn
 yarn -v

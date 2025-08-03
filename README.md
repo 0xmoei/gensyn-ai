@@ -232,7 +232,7 @@ docker compose run --rm --build -Pit swarm-gpu
   * 1- Open a new terminal
   * 2- Install **localtunnel**:
     ```
-    npm install -g localtunnel
+    sudo npm install -g localtunnel
     ```
   * 3- Get a password:
     ```

@@ -111,7 +111,9 @@ While i recommend to use GPU, I am currently running `CPU only` of this node's v
 #
 
 ## 1) Install Dependencies
-* Note: If installing on **Quickpod**, remove `sudo` from commands
+* Note: If installing on **Quickpod**, remove `sudo` from commands.
+
+
 **1. Update System Packages**
 ```bash
 sudo apt update && sudo apt upgrade -y

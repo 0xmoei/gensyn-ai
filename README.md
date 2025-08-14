@@ -219,6 +219,9 @@ docker compose run --rm --build -Pit swarm-cpu
 docker compose run --rm --build -Pit swarm-gpu
 ```
 
+* **Note: `swarm.pem` in the docker method saves in `/root/rl-swarm/user/keys/`**
+
+
 ---
 
 ## 5) Login

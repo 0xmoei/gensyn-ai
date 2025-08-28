@@ -266,6 +266,22 @@ docker compose run --rm --build -Pit swarm-gpu
 
 ---
 
+## 5) Join Judge
+During setup, you'll be asked if you'd like to participate in the AI Prediction Market.
+
+Example:
+```
+Would you like to participate in the AI Prediction Market? (Y/n)
+```
+* You'll be entered into the prediction market by default, by pressing `ENTER` or answering `Y` to the Prediction Market prompt
+* There is a separate leaderboard for Judge in the [gensyn dashboard](https://dashboard.gensyn.ai/)
+
+This is an experiment we're running in which:
+
+RL Swarm models enter the market and bet on the correct answer to a reasoning problem. Evidence is revealed gradually, and models update beliefs by placing new bets as information arrives. Early correct bets yield higher rewards, favoring quick, confident models. The Judge evaluates final evidence and determines successful bets.
+
+---
+
 ### Node Name
 * Now your node started running, Find your name after word `Hello`, like mine is `whistling hulking armadillo` as in the image below (You can use `CTRL+SHIFT+F` to search Hello in terminal)
 
@@ -297,7 +313,7 @@ docker compose run --rm --build -Pit swarm-gpu
 ## Quick Method
 ### Mobaxterm SSH client
 You can use SSH clients that support file management like **Mobaxterm**
-* To connect to them, simply click on **Start local terminal** in *Mobaxterm*, and execute your ssh command
+* To connect to them, simply click on **Start local terminal** in *Mobaxterm*, and execute your **Bash** ssh command.
 * If using Vast GPU provider, the rl-swarm will be located to `/workspace/rl-swarm`
 
 

@@ -33,6 +33,44 @@ OR
 
 #
 
+## 📋 Quick Navigation
+
+### 🚀 Getting Started
+- **[Environment Setup](#enviorements)** - Choose your setup method (Windows, Cloud GPU, VPS)
+- **[Install Dependencies](#1-install-dependencies)** - System packages, Python, Node.js, Yarn
+- **[HuggingFace Setup](#2-get-huggingface-access-token)** - Create account and access token
+- **[Clone Repository](#3-clone-the-repository)** - Download RL Swarm code
+
+### 🏃‍♂️ Running Your Node
+- **[Run the Swarm](#4-run-the-swarm)** - CLI and Docker methods
+- **[Login Process](#5-login)** - Web interface setup and authentication
+- **[Join Judge](#5-join-judge)** - AI Prediction Market participation
+- **[Node Name](#node-name)** - Find your unique animal name
+- **[Screen Commands](#screen-commands)** - Manage background sessions
+
+### 🔧 Advanced Setup
+- **[Multiple Nodes](#run-multiple-nodes)** - Run multiple instances
+- **[Backup & Recovery](#backup)** - Protect your swarm.pem file
+- **[Node Health](#node-health)** - Monitor performance and rewards
+- **[Gswarm Bot](#gswarm-roletelegram-bot)** - Telegram monitoring setup
+
+### 🛠️ Maintenance
+- **[Update Node](#update-node)** - Keep your node up to date
+- **[Troubleshooting](#troubleshooting)** - Common issues and solutions
+
+### 🌐 Cloud Providers
+- **[Vast.ai Setup](#1--rent-vastai-gpus)** - GPU rental with SSH
+- **[QuickPod Setup](#2--rent-quickpod)** - No SSH key required
+- **[Hyperbolic Setup](#3--rent-hyperbolic-gpus)** - Alternative GPU provider
+- **[VPS Setup](#method-3-vps-servers)** - CPU-only server option
+
+### 📊 Monitoring & Rewards
+- **[Official Dashboard](#official-dashboard)** - Gensyn web interface
+- **[Contract Explorer](#contract)** - Blockchain transaction history
+- **[Telegram Bot](#gswarm-roletelegram-bot)** - Real-time notifications
+
+---
+
 ## Enviorements
 
 ## Method 1 - Windows Users (Home PC):

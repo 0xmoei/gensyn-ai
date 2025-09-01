@@ -640,3 +640,17 @@ nano $(python3 -c "import hivemind.p2p.p2p_daemon as m; print(m.__file__)")
 ```
 * Search for line: `startup_timeout: float = 15`, then change `15` to `120` to increate the Daemon's timeout. the line should look like this: `startup_timeout: float = 120`
 * To save the file: Press `Ctrl + X`, `Y` & `Enter`
+
+---
+
+### ⚠️ Cuda Memory Error
+For GPUs with low VRAM (like RTX 3060 12GB), you can replace the default configuration (`rl-swarm/rgym_exp/config/rg-swarm.yaml`) with an optimized version ([rg-swarm.yaml](https://github.com/0xmoei/gensyn-ai/blob/main/rg-swarm.yaml)) that reduces memory usage
+* `num_generations: 2` (maintained for performance)
+* `num_train_samples: 1` (reduced from default)
+* `num_transplant_trees: 1` (reduced from default)
+* `dtype: 'bfloat16'` (uses less memory than float32)
+* `enable_gradient_checkpointing:` true (trades compute for memory)
+* `beam_size: 20` (reduced from default 50)
+
+The optimized version of the config is fine, but if you still got any issues, you can also consider doing these additional memory optimization steps:
+* Set environment variable before running: `export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True,max_split_size_mb:128"`

@@ -547,6 +547,7 @@ screen -XS swarm quit
 **Method 1** (test this first): If you cloned official repo with no local changes:
 ```bash
 cd rl-swarm
+rm -rf .venv
 git pull
 ```
 
@@ -557,6 +558,7 @@ cl rl-swarm
 # Reset local changes:
 git reset --hard
 # Pull updates:
+rm -rf .venv
 git pull
 
 # Alternatively:
